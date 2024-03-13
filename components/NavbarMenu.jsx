@@ -19,8 +19,8 @@ const NavbarM = () => {
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
 
                
-                <div className="py-5">
-                    <ul className='hidden md:flex flex-row justify-center' >
+                <div className="py-5 w-full">
+                    <ul className='hidden md:flex flex-row justify-center gap-32' >
                         <Link href='/'>
                             <li className='ml-10 xs: sm:text-xl uppercase  hover:border-b'>
                                 Home
