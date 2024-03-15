@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import '@styles/Main.css';
+// import '@styles/Main.css';
 import '@styles/Fonts.css';
 
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
@@ -15,7 +15,7 @@ const Main = () => {
 
                 <div>
 
-                    <p className='uppercase text-sm tracking-widest text-[#B7B7B7]' >Let's build together</p>
+                    <p className='uppercase text-sm tracking-widest text-[#B7B7B7] text-center p-3' >Let's build together</p>
 
                     <h1 className='uppercase text-5xl text-[#B1BDC9] text-center sm:hidden font-face-my69'>
                         HI THERE, I'M <span className="text-[#d2d2d2] font-face-gm">MYKYTA</span>
@@ -25,11 +25,10 @@ const Main = () => {
                         Hi, there I'm <span className="text-[#B7B7B7] whitespace-nowrap  ">Mykyta Makhorin</span>
                     </h1>
 
-                    <h1 className='uppercase py-2 xs:text-lg sm:text-xs md:text-2xl text-[#B1BDC9]'>
+                    <h1 className='uppercase py-2 xs:text-lg sm:text-xs md:text-xl tracking-widest text-[#B1BDC9]'>
                         Student of <span className="text-[#B7B7B7] "> The Technical University of Košice </span>
                         and a <span className="text-[#B7B7B7]"> Junior</span> programmer.
                     </h1>
-
 
                     <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                         <div className='flex items-center justify-between my-4 w-full sm:w-[100%]'>
