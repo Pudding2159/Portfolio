@@ -6,11 +6,12 @@ import About from "components/About"
 import Skills from 'components/Skills';
 import Projects from 'components/Projects';
 import Contact from 'components/Contact';
-
+import { Reveal } from '@components/Reveal';
 
 const Home = ({ children }) => {
     return (
         <div>
+            
             <NavbarM />
 
             <div className="main">
@@ -18,13 +19,28 @@ const Home = ({ children }) => {
             </div>
 
             <main className='app'>
-                <Main />
-                <About />
-                <Skills />
-                <Projects />
-                {/* <Contact/> */}
-                {/* <Nav/> */}
-                {children}
+                <div>
+                    <Reveal>
+                        <Main />
+                    </Reveal>
+
+                    <Reveal>
+                        <About />
+                    </Reveal>
+
+                    <Reveal>
+                        <Skills />
+                    </Reveal>
+
+                    <Reveal>
+
+                        <Projects />
+                    </Reveal>
+
+                    {/* <Contact/> */}
+                    {/* <Nav/> */}
+                    {children}
+                </div>
             </main>
 
 

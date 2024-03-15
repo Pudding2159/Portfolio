@@ -1,21 +1,47 @@
 "use client"
-
 import Image from 'next/image';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill, BsHouseAdd } from 'react-icons/bs'
-const NavbarM = () => {
 
-    const [nav, setNav] = useState(false)
+const NavbarM = () => {
+    const [nav, setNav] = useState(false);
+    const [showNav, setShowNav] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
 
     const handleNav = () => {
-        setNav(!nav)
-    }
+        setNav(!nav);
+    };
+
+    const controlNavbar = () => {
+        if (typeof window !== 'undefined') {
+            if (window.scrollY > lastScrollY) { // if scroll down hide the navbar
+                setShowNav(false);
+            } else { // if scroll up show the navbar
+                setShowNav(true);
+            }
+
+            // remember current page location to use in the next move
+            setLastScrollY(window.scrollY);
+        }
+    };
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            window.addEventListener('scroll', controlNavbar);
+
+            // cleanup function to remove the listener when the component unmounts
+            return () => {
+                window.removeEventListener('scroll', controlNavbar);
+            };
+        }
+    }, [lastScrollY]);
 
     return (
-        <div className='fixed w-full h-20 shadow-xl z-[100]'>
+        <div className={`fixed w-full h-20 shadow-xl z-[100] ${!showNav && 'top-[-100%]'} transition-top duration-300`}>
+                   <div className='fixed w-full h-20 shadow-xl z-[100]'>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
 
                
@@ -129,7 +155,7 @@ const NavbarM = () => {
                 </div >
             </div>
         </div>
-
+        </div>
     );
 };
 
