@@ -8,12 +8,12 @@ import '@styles/Gears.css'
 const About = () => {
     return (
         <div>
-            <div className="w-full md:h-full p-2 flex items-center py-48 z-[10]" >
+            <div className="w-full md:h-full p-2 flex items-center xs:py-20 md:py-48 z-[10]" >
                 <div className="max-w-[1240px] m-auto md:grid grid-cols-4 gap-8 z-[10]" >
 
 
-                    <div className="flex text-center col-span-2 col-start-2" >
-                        <p className='uppercase md:text-7xl xs:text-4xl tracking-widest text-[#0B8389] md:whitespace-nowrap font-face-my69 '> ◖ABOUT ME.◗</p>
+                    <div className="flex text-center col-span-2 col-start-2 xs:pb-10 md:pd-0" >
+                        <p className='uppercase md:text-7xl xs:text-7xl tracking-widest text-[#0B8389] md:whitespace-nowrap font-face-my69 '>◖ABOUT ME.◗</p>
                         <div className="flex w-auto justify-center h-auto">
                         </div>
                     </div>
