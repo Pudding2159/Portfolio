@@ -20,7 +20,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src='/assets/icons/Python-Light.svg'
+                                    src='/icons/Python-Light.svg'
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -38,7 +38,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src='/assets/icons/CS.svg'
+                                    src='/icons/CS.svg'
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -57,7 +57,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src='/assets/icons/JavaScript.svg'
+                                    src='/icons/JavaScript.svg'
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -74,7 +74,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src='/assets/icons/C.svg'
+                                    src='/icons/C.svg'
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -92,7 +92,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src='/assets/icons/PyTorch-Light.svg'
+                                    src='/icons/PyTorch-Light.svg'
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -110,7 +110,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src='/assets/icons/Unity-Dark.svg'
+                                    src='/icons/Unity-Dark.svg'
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -129,7 +129,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src='/assets/icons/TensorFlow-Light.svg'
+                                    src='/icons/TensorFlow-Light.svg'
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -147,7 +147,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src='/assets/icons/TailwindCSS-Dark.svg'
+                                    src='/icons/TailwindCSS-Dark.svg'
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -165,7 +165,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src='/assets/icons/Git.svg'
+                                    src='/icons/Git.svg'
                                     width={64}
                                     height={64}
                                     alt='/'
@@ -182,7 +182,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src='/assets/icons/React-Light.svg'
+                                    src='/icons/React-Light.svg'
                                     width={64}
                                     height={64}
                                     alt='/'

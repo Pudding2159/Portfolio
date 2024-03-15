@@ -10,13 +10,15 @@ module.exports = {
       fontFamily: {
         satoshi: ['Satoshi', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
+        latoLight: "LatoLight",
       },
       colors: {
         'primary-orange': '#FF5722',
       },
       screens: {
-        'xs': '340px', // Добавляете свою точку останова для xs
-      }
+        'xs': '350px', // добавлен новый брейкпоинт для маленьких экранов
+
+      },
     },
   },
   plugins: [],

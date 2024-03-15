@@ -30,7 +30,7 @@
 
 .main:after {
   content: "";
-  background-image: url("/assets/images/grid.svg");
+  background-image: url("/images/grid.svg");
   z-index: 1;
   position: absolute;
   width: 100%;
@@ -50,7 +50,7 @@
 /* Tailwind Styles */
 
 .app {
-  @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+  @apply relative z-10 flex justify-center items-center flex-col ;
 }
 
 .black_btn {
@@ -154,12 +154,24 @@ html, body {
   background-image: 
     radial-gradient(circle, rgba(0, 0, 0, 0.713) 0%, rgba(0, 0, 0, 0) 70%),
     radial-gradient(circle, rgba(95, 95, 95, 0.484) 0%, #dedede6b 100%), 
-    url('/assets/images/New_Image.jpg');
+    url('/images/New_Image.jpg');
   background-size: cover, cover, 100% 100%;  /* теперь у нас три слоя фона, каждый из которых масштабируется соответственно */
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center, center, center;
   background-attachment: scroll, scroll, scroll;
 }
+
+
+
+@font-face {
+  font-family: "LatoLight";
+  src: url("/public/fonts/behance-642c26b725e38.ttf")
+}
+
+.font-face-gm{
+  font-family: "LatoLight";
+}
+
 
 
 

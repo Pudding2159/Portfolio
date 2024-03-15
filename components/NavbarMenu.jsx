@@ -71,7 +71,7 @@ const NavbarM = () => {
                 <div className="flex flex-none md:px-10 xs:px-5">
                     <div onClick={handleNav}>
                         <Image
-                            src='/assets/icons/Home_Icon.png'
+                            src='/icons/Home_Icon.png'
                             width={47} 
                             height={47} 
                             alt='Home' 
@@ -90,7 +90,7 @@ const NavbarM = () => {
                     <div>
                         <div className="flex w-full items-center justify-between">
                             <Image
-                                src="/assets/images/logo2.png"
+                                src="/images/logo2.png"
                                 width={150}
                                 height={150}
                                 alt="/"
@@ -160,3 +160,6 @@ const NavbarM = () => {
 };
 
 export default NavbarM;
+
+
+

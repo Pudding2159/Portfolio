@@ -15,7 +15,7 @@ const About = () => {
                     </div>
 
                     <div className='col-span-2 col-start-1 w-auto h-auto m-auto shadow-xl shadow-gray-900 rounded-xl flex items-center justify-center p-6 pt-8 hover:scale-105 ease-in duration-300'>
-                        <img className=' rounded-xl' src="/assets/images/My_Image.jpg" alt='/' />
+                        <img className=' rounded-xl' src="/images/My_Image.jpg" alt='/' />
                     </div>
 
 
