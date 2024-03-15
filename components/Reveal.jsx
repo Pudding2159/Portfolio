@@ -20,7 +20,7 @@ export const Reveal = ({ children }) => {
         visible: { 
           opacity: 1, 
           y: 0, 
-          transition: { duration: 0.7, delay: 0.10 }
+          transition: { duration: 1, delay: 0.27 }
         }
       };
       
