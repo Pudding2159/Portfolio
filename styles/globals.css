@@ -166,7 +166,7 @@ html, body {
     background-image: 
       radial-gradient(circle at 50% 47%, rgba(0, 0, 0, 0.659) 40%, rgba(0, 0, 0, 0.67) 25%, transparent 50%),
       radial-gradient(circle at 50% 40%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 50%),
-      url('/images/web_12.jpg');
+      url('/images/imagegif.gif');
     background-size: cover;
   }
 }
@@ -178,7 +178,7 @@ html, body {
     radial-gradient(ellipse 200% 120% at 50% 26%, rgba(0, 0, 0, 0.813) 1%, rgba(0, 0, 0, 0.71) 40%, transparent 60%),
     radial-gradient(ellipse 100% 60% at 50% 40%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.05) 25%, transparent 40%),
     
-      url('/images/web_12.jpg');
+      url('/images/imagegif.gif');
     background-size: cover;
   }
 }
