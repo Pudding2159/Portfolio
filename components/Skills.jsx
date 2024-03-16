@@ -47,7 +47,7 @@ const Skills = () => {
                             </div>
 
                             <div class="hidden md:flex flex-row justify-start items-start col-start-5">
-                                <p class="font-face-my69 text-[200px] font-[900] text-[#7644ec48]">01.</p>
+                                <p class="font-face-my69 text-[200px] font-[900] text-[#7644ec48]">.01</p>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ const Skills = () => {
                             </div>
 
                             <div class="hidden md:flex flex-row justify-start items-start col-start-5">
-                                <p class="font-face-my69 text-[200px] font-[900] text-[#7644ec48]">02.</p>
+                                <p class="font-face-my69 text-[200px] font-[900] text-[#7644ec48]">.02</p>
                             </div>
                         </div>
                     </div>
