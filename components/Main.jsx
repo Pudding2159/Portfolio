@@ -2,6 +2,8 @@
 import React from 'react'
 // import '@styles/Main.css';
 import '@styles/Fonts.css';
+import '@styles/Light_style.css'
+
 
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
@@ -18,11 +20,11 @@ const Main = () => {
                     <p className='uppercase text-sm tracking-widest text-[#B7B7B7] text-center p-3' >Let's build together</p>
 
                     <h1 className='uppercase text-5xl text-[#B1BDC9] text-center sm:hidden font-face-my69'>
-                        HI THERE, I'M <span className="text-[#d2d2d2] font-face-gm">MYKYTA</span>
+                        HI THERE, I'M <span className="text-[#d2d2d2] key-tag font-face-gm">MYKYTA</span>
                     </h1>
 
                     <h1 className='uppercase py-2 text-9xl text-[#B1BDC9] hidden md:block font-face-my69'>
-                        Hi, there I'm <span className="text-[#B7B7B7] whitespace-nowrap  ">Mykyta Makhorin</span>
+                        Hi, there I'm <span className="text-[#B7B7B7] key-tag whitespace-nowrap  ">Mykyta Makhorin</span>
                     </h1>
 
                     <h1 className='uppercase py-2 xs:text-lg sm:text-xs md:text-xl tracking-widest text-[#B1BDC9]'>
