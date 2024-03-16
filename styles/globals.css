@@ -151,18 +151,37 @@ html, body {
   width: 100%;
   height: 100%;
   background-image: 
-    radial-gradient(circle, rgba(0, 0, 0, 0.713) 14%, rgba(0, 0, 0, 0) 80%),
-    radial-gradient(circle, rgba(95, 95, 95, 0.484) 0%, #dedede6b 100%), 
-    url('/images/web_6.jpg');
-  background-size: cover, cover, 100% 100%;  /* теперь у нас три слоя фона, каждый из которых масштабируется соответственно */
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: center, center, center;
-  background-attachment: scroll, scroll, scroll;
+    radial-gradient(ellipse at 50% 40%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.47) 25%, transparent 50%),
+    radial-gradient(ellipse at 50% 30%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.05) 30%, transparent 50%),
+    url('/images/imagegif.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
 }
 
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 767px) {
+  html, body {
+    background-image: 
+      radial-gradient(circle at 50% 40%, rgba(0, 0, 0, 0.659) 40%, rgba(0, 0, 0, 0.67) 25%, transparent 50%),
+      radial-gradient(circle at 50% 40%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.15) 30%, transparent 50%),
+      url('/images/imagegif.gif');
+    background-size: cover;
+  }
+}
 
-
-
+/* Медиазапрос для планшетов и настольных ПК */
+@media (min-width: 768px) {
+  html, body {
+    background-image: 
+    radial-gradient(ellipse 200% 121% at 50% 26%, rgba(0, 0, 0, 0.813) 1%, rgba(0, 0, 0, 0.71) 40%, transparent 60%),
+    radial-gradient(ellipse 100% 60% at 50% 40%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.05) 25%, transparent 40%),
+    
+      url('/images/imagegif.gif');
+    background-size: cover;
+  }
+}
 
 
 

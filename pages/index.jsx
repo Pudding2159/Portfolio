@@ -11,7 +11,7 @@ import { Reveal } from '@components/Reveal';
 const Home = ({ children }) => {
     return (
         <div>
-            
+
             <NavbarM />
 
             <div className="main">
@@ -33,12 +33,15 @@ const Home = ({ children }) => {
                     </Reveal>
 
                     <Reveal>
-
                         <Projects />
                     </Reveal>
 
-                    {/* <Contact/> */}
-                    {/* <Nav/> */}
+
+
+                    {/* 
+                    <Contact/> 
+                     <Nav/> */}
+
                     {children}
                 </div>
             </main>
