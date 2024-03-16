@@ -3,8 +3,6 @@ import React from 'react'
 import '@styles/Decoration.css';
 import '@styles/Fonts.css';
 import '@styles/Gears.css'
-import { Reveal } from '@components/Reveal';
-
 
 const About = () => {
     return (
