@@ -1,4 +1,6 @@
+'use client'
 import '@styles/globals.css';
+import React from 'react'
 import Nav from 'components/Nav';
 import NavbarM from 'components/NavbarMenu';
 import Main from "components/Main";
