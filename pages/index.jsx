@@ -1,6 +1,6 @@
 'use client'
-import '@styles/globals.css';
 import React from 'react'
+import '@styles/globals.css';
 import Nav from 'components/Nav';
 import NavbarM from 'components/NavbarMenu';
 import Main from "components/Main";
@@ -37,8 +37,6 @@ const Home = ({ children }) => {
                     <Reveal>
                         <Projects />
                     </Reveal>
-
-
 
                     {/* 
                     <Contact/> 
