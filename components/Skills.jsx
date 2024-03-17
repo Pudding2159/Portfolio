@@ -3,6 +3,7 @@ import Image from 'next/image'
 import '@styles/Gears.css'
 import '@styles/Fonts.css';
 import { Reveal } from '@components/Reveal';
+import "@styles/animate_text.css"
 
 const Skills = () => {
     return (
@@ -42,17 +43,26 @@ const Skills = () => {
                                 <div className="z-10">Next.js</div>
                                 <div className="z-10">Tailwind.CSS</div>
                                 <div className="absolute bottom-0 top-1/2 left-0 transform translate-y-1/2 z-1 md:hidden">
-                                    <p className =" tracking-widest font-face-my69 text-[200px] font-[900] text-[#8c806c4f]">.01</p>
+                                    <p className=" tracking-widest font-face-my69 text-[200px] font-[900] text-[#8c806c4f]">.01</p>
                                 </div>
                             </div>
 
-                            <div className="hidden md:flex flex-row justify-start items-start col-start-5">
+                            {/* <div className="hidden md:flex flex-row justify-start items-start col-start-5">
                                 <p className="font-face-my69 text-[200px] font-[900] text-[#8c806c69]">.01</p>
+                            </div> */}
+
+                            <div className="hidden md:flex flex-row justify-start items-start col-start-5 glitch-wrapper p-2">
+                                <div className="font-face-my69 uppercase glitch" data-text=".01">
+                                    <p className='hidden md:flex'>.01</p>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
             </Reveal>
+
+
 
             <Reveal>
 
@@ -69,7 +79,7 @@ const Skills = () => {
                                 </p>
                             </div>
 
-                            <div className='flex flex-col gap-4 font-face-my69 text-4xl tracking-widest uppercase text-[#7C90A1] md:col-start-3 xs:p-10 md:p-0 md:pt-10'>
+                            <div className='flex flex-col gap-4 font-face-my69 text-4xl tracking-widest uppercase text-[#7C90A1] md:col-start-3 xs:pl-10 md:pt-10'>
                                 <div className="pb-5 z-10">Using Technology</div>
                                 <div className="z-10">Android Studio</div>
                                 <div className="z-10">Xamarin</div>
@@ -79,9 +89,16 @@ const Skills = () => {
                                 </div>
                             </div>
 
-                            <div className="hidden md:flex flex-row justify-start items-start col-start-5">
-                                <p className="font-face-my69 text-[200px] font-[900] text-[#8c806c4f]">.02</p>
+                            {/* <div className="hidden md:flex flex-row justify-start items-start col-start-5">
+                                <p className="font-face-my69 text-[200px] font-[900] text-[#8c806c69]">.01</p>
+                            </div> */}
+
+                            <div className="hidden md:flex flex-row justify-start items-start col-start-5 glitch-wrapper p-2">
+                                <div className="font-face-my69 uppercase glitch" data-text=".02">
+                                    <p className='hidden md:flex'>.02</p>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -112,9 +129,16 @@ const Skills = () => {
                                 </div>
                             </div>
 
-                            <div className="hidden md:flex flex-row justify-start items-start col-start-5">
+                            {/* <div className="hidden md:flex flex-row justify-start items-start col-start-5">
                                 <p className="font-face-my69 text-[200px] font-[900] text-[#8c806c4f]">.03</p>
+                            </div> */}
+
+                            <div className="hidden md:flex flex-row justify-start items-start col-start-5 glitch-wrapper p-2">
+                                <div className="font-face-my69 uppercase glitch" data-text=".03">
+                                    <p className='hidden md:flex'>.03</p>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>

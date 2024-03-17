@@ -4,7 +4,6 @@ import React from 'react'
 import '@styles/Fonts.css';
 import '@styles/Light_style.css'
 
-
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill, BsHouseAdd } from 'react-icons/bs'
@@ -27,9 +26,9 @@ const Main = () => {
                         Hi, there I'm <span className="text-[#7C90A1] key-tag whitespace-nowrap  ">Mykyta Makhorin</span>
                     </h1>
 
-                    <h1 className='uppercase py-2 xs:text-lg sm:text-xs md:text-xl tracking-widest text-[#F2E3B6]'>
-                        Student of <span className="text-[#7C90A1] "> The Technical University of Košice </span>
-                        and a <span className="text-[#7C90A1]"> Junior</span> programmer.
+                    <h1 className='uppercase py-2 xs:text-lg sm:text-xs md:text-xl tracking-widest text-[#9fbfdb]'>
+                        Student of <span className="text-[#DDC6B6] "> The Technical University of Košice </span>
+                        and a <span className="text-[#DDC6B6]"> Junior</span> programmer.
                     </h1>
 
                     <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
