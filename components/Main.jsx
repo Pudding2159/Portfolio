@@ -1,4 +1,4 @@
-'use client'
+"use client"; 
 import React from 'react'
 // import '@styles/Main.css';
 import '@styles/Fonts.css';
@@ -62,7 +62,7 @@ const Main = () => {
 
 
                             <a href="https://web-portfolio-pearl-seven.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                <div
+                                <div 
                                     className='rounded-full shadow-lg shadow-gray-400 pt-6 cursor-pointer hover:scale-105 ease-in duration-300 w-12 h-12 flex items-center justify-center'
                                     style={{ backgroundColor: 'white' }}
                                 > <BsFillPersonLinesFill style={{ position: 'relative', top: '-10px', left: '0px' }} />

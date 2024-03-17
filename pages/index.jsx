@@ -1,4 +1,4 @@
-'use client'
+"use client"; 
 import React from 'react'
 import '@styles/globals.css';
 import Nav from 'components/Nav';
@@ -9,7 +9,6 @@ import Skills from 'components/Skills';
 import Projects from 'components/Projects';
 import Contact from 'components/Contact';
 import { Reveal } from '@components/Reveal';
-
 const Home = ({ children }) => {
     return (
         <div>
