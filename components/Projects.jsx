@@ -19,7 +19,7 @@ const Projects = () => {
                     MY PROJECT
                 </p>
 
-                <div className="md:grid grid-cols-12 grid-rows-5 pt-20 ">
+                <div className="md:grid grid-cols-12 grid-rows-5 pt-20 gap-14 ">
 
 
                     <div className="col-start-1 col-end-8 " >
@@ -28,11 +28,11 @@ const Projects = () => {
                             title_2='PyTorch Python'
                             backgraundImg={"/images/web_image_.png"}
                             projectUrl='https://github.com/Pudding2159/Drone-Face-Tracking-and-Photo-Classification-with-Tello'
-                            height_="500"
+                            height_="600"
                             width_="600"
                         />
                     </div>
-                    <div className="col-start-9 col-end-13 ">
+                    <div className="col-start-8 col-end-13 xs:py-20 xs:pr-7 ">
 
                         <ProjectItems
                             title_1='Mobile Unity Game'
@@ -40,7 +40,7 @@ const Projects = () => {
                             backgraundImg={"/images/web_image_.png"}
                             projectUrl='https://github.com/Pudding2159/Unity-2D-Simple-Mobile-Game'
                             height_="500"
-                            width_="500"
+                            width_="600"
                         />
                     </div>
 
