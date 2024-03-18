@@ -4,7 +4,7 @@ import styles from '@styles/test.module.css';
 const CustomCursor = () => {
   useEffect(() => {
     // Очистка консоли для удобства разработки
-    console.clear();
+    // console.clear();
 
     const circleElement = document.querySelector('.' + styles.circle);
 

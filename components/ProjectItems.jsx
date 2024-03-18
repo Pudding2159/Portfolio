@@ -3,14 +3,14 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export const ProjectItems = ({ title_1, title_2, backgraundImg, projectUrl }) => {
+export const ProjectItems = ({ title_1, title_2, backgraundImg, projectUrl, height_, width_ }) => {
     return (
         <div className="relative flex items-center justify-center h-full w-full shadow-xl shadow-gray-400 rounded-xl p-3 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
             <Image
                  className="rounded-xl group-hover:opacity-10"
                  src={backgraundImg}
-                 height={100}
-                 width={500}
+                 height={height_}
+                 width={width_}
                  alt='/'
             />
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]'>

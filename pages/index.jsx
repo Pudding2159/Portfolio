@@ -20,7 +20,7 @@ const Home = ({ children }) => {
             </div>
             <NavbarM />
 
-            <div class="circle"></div>
+            <div className ="circle"></div>
             <div className="main">
                 <div className="gradient" />
             </div>
