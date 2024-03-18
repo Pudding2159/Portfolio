@@ -23,7 +23,7 @@ const Main = () => {
                     </h1>
 
                     <h1 className='uppercase py-2 text-9xl text-[#7C90A1] hidden md:block font-face-my69'>
-                        Hi, there I'm <span className="text-[#7C90A1] key-tag whitespace-nowrap ">Mykyta Makhorin</span>
+                        Hi, there I'm <span className="text-[#7C90A1] key-tag  ">Mykyta Makhorin</span>
                     </h1>
 
                     <h1 className='uppercase py-2 xs:text-lg sm:text-xs md:text-xl tracking-widest text-[#9fbfdb]'>

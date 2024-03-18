@@ -1,7 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
@@ -43,7 +42,7 @@ const NavbarM = () => {
 
     return (
         <div className={`fixed w-full h-20 shadow-xl z-[100] ${!showNav && 'top-[-100%]'} transition-top duration-300`}>
-            <div className='fixed w-full h-20 shadow-xl z-[100]'>
+            <div className='fixed w-full h-20 bg-[#494a4bc7] shadow-xl z-[100]'>
                 <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
 
 
