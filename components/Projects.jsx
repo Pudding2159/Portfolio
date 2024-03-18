@@ -28,19 +28,19 @@ const Projects = () => {
                             title_2='PyTorch Python'
                             backgraundImg={"/images/web_image_.png"}
                             projectUrl='https://github.com/Pudding2159/Drone-Face-Tracking-and-Photo-Classification-with-Tello'
-                            height_="600"
-                            width_="600"
+                            height_="800"
+                            width_="700"
                         />
                     </div>
-                    <div className="col-start-8 col-end-13 xs:py-20 xs:pr-7 ">
+                    <div className="col-start-8 col-end-13 xs:py-20 xs:pr-10 ">
 
                         <ProjectItems
                             title_1='Mobile Unity Game'
                             title_2='Unity C#'
-                            backgraundImg={"/images/web_image_.png"}
+                            backgraundImg={"/images/image_game.png"}
                             projectUrl='https://github.com/Pudding2159/Unity-2D-Simple-Mobile-Game'
-                            height_="500"
-                            width_="600"
+                            height_="800"
+                            width_="800"
                         />
                     </div>
 
