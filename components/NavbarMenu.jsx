@@ -6,6 +6,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill, BsHouseAdd } from 'react-icons/bs'
 import '@styles/Light_style.css'
+import "@styles/Fonts.css"
 
 const NavbarM = () => {
     const [nav, setNav] = useState(false);
@@ -50,7 +51,7 @@ const NavbarM = () => {
                         <ul className='hidden md:flex flex-row justify-center gap-32' >
                             <Link href='/#Home'>
                                 <h1>
-                                    <span className="key-tag font-face-my69 text-xl" >
+                                    <span className="p-4  key-tag font-face-my38 text-xl" >
                                         Home
                                     </span>
                                 </h1>
@@ -58,7 +59,7 @@ const NavbarM = () => {
 
                             <Link href='/#Skills'>
                                 <h1>
-                                    <span className="key-tag font-face-my69 text-xl" >
+                                    <span className="p-4 key-tag font-face-my38 text-xl" >
                                         Skills
                                     </span>
                                 </h1>
@@ -66,7 +67,7 @@ const NavbarM = () => {
 
                             <Link href='/#Project'>
                                 <h1>
-                                    <span className="key-tag font-face-my69 text-xl" >
+                                    <span className="p-4 key-tag font-face-my38 text-xl" >
                                         Project
                                     </span>
                                 </h1>
@@ -74,7 +75,7 @@ const NavbarM = () => {
 
                             <Link href='/'>
                                 <h1>
-                                    <span className="key-tag font-face-my69 text-xl" >
+                                    <span className="p-4 key-tag font-face-my38 text-xl" >
                                         Contact
                                     </span>
                                 </h1>
@@ -98,73 +99,84 @@ const NavbarM = () => {
 
                 <div className={nav ? 'fixed left-0 top-0 w-full bg-black/70' : ''} >
                     <div className={nav
-                        ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+                        ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#8695a1] p-10 ease-in duration-500'
                         : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
                     } >
 
                         <div>
                             <div className="flex w-full items-center justify-between">
-                                <Image
-                                    src="/icons/"
-                                    width={150}
-                                    height={150}
-                                    alt="/"
-                                />
-                                <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer" >
+                                <div onClick={handleNav} className="bg-[#d0d0d0] rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer" >
 
                                     <AiOutlineClose />
                                 </div>
                             </div>
 
-                            <div className="border-b border-gray-300 my-4" >
-                                <p className="w-[85%] md:w-[90%] py-4" >Lest build somesing legendery</p>
+                            <div className="border-b border-gray-300 my-4 md:pt-14" >
+                                <p className="w-[85%] md:w-[90%] py-4 text-[#DDC6B6] text-xl font-face-my38" >Lest  build something legendery</p>
                             </div>
 
                         </div >
                         <div>
-                            <ul>
-                                <Link href='/'>
-                                    <li className='py-4 text-sm'>
-                                        Home
-                                    </li>
+                            <ul className = "md:pt-20">
+                                <Link href='/#Home'>
+                                    <h1>
+                                        <span className="p-4 key-tag font-face-my38 font-face-my38 text-xl" >
+                                            Home
+                                        </span>
+                                    </h1>
                                 </Link>
+                                <Link href='/#Skills'>
+                                    <h1>
+                                        <span className="p-4 key-tag font-face-my38 text-xl" >
+                                            Skills
+                                        </span>
+                                    </h1>
+                                </Link>
+
+                                <Link href='/#Project'>
+                                    <h1>
+                                        <span className="p-4 key-tag font-face-my38 text-xl" >
+                                            Project
+                                        </span>
+                                    </h1>
+                                </Link>
+
                                 <Link href='/'>
-                                    <li className='py-4 text-sm'>
-                                        Skills
-                                    </li>
-                                </Link> <Link href='/'>
-                                    <li className='py-4 text-sm '>
-                                        About me
-                                    </li>
-                                </Link> <Link href='/'>
-                                    <li className='py-4 text-sm'>
-                                        Project
-                                    </li>
+                                    <h1>
+                                        <span className="p-4 key-tag font-face-my38 text-xl" >
+                                            Contact
+                                        </span>
+                                    </h1>
                                 </Link>
                             </ul>
-                            <div className="pt-40" >
+                            <div className="xs:pt-10 sm:pt-28 md:pt-40" >
 
-                                <p className="uppercase tracking-widest text-[#5651e5]" >
+                                <p className="p-4 font-face-my38 uppercase tracking-widest text-[#DDC6B6]" >
                                     Let's connect
                                 </p>
                                 <div className='flex items-center justify-between my-4 w-full sm:w-[40%]'>
                                     <div
-                                        className='rounded-full shadow-lg shadow-gray-400 pt-3 cursor-pointer hover:scale-105 ease-in duration-300 w-10 h-10 flex items-center justify-center'
-                                    > <FaLinkedinIn style={{ position: 'relative', top: '-4px', left: '-1px' }} />
+                                        className='rounded-full shadow-lg shadow-gray-50 bg-[#303030] pt-3 cursor-pointer hover:scale-105 ease-in duration-300 w-10 h-10 flex items-center justify-center'
+                                    >
+                                        <FaLinkedinIn style={{ color: 'white', position: 'relative', top: '-4px', left: '-1px' }} />
                                     </div>
                                     <div
-                                        className='rounded-full shadow-lg shadow-gray-400 pt-3 cursor-pointer hover:scale-105 ease-in duration-300 w-10 h-10 flex items-center justify-center'
-                                    > <FaGithub style={{ position: 'relative', top: '-4px', left: '-1px' }} />
+                                        className='rounded-full shadow-lg shadow-gray-50 bg-[#303030] pt-3 cursor-pointer hover:scale-105 ease-in duration-300 w-10 h-10 flex items-center justify-center'
+                                    >
+                                        <FaGithub style={{ color: 'white', position: 'relative', top: '-4px', left: '-1px' }} />
                                     </div>
                                     <div
-                                        className='rounded-full shadow-lg shadow-gray-400 pt-3 cursor-pointer hover:scale-105 ease-in duration-300 w-10 h-10 flex items-center justify-center'
-                                    > <AiOutlineMail style={{ position: 'relative', top: '-4px', left: '-1px' }} />
+                                        className='rounded-full shadow-lg shadow-gray-50 bg-[#303030] pt-3 cursor-pointer hover:scale-105 ease-in duration-300 w-10 h-10 flex items-center justify-center'
+                                    >
+                                        <AiOutlineMail style={{ color: 'white', position: 'relative', top: '-4px', left: '-1px' }} />
                                     </div>
                                     <div
-                                        className='rounded-full shadow-lg shadow-gray-400 pt-3 cursor-pointer hover:scale-105 ease-in duration-300 w-10 h-10 flex items-center justify-center'
-                                    > <BsFillPersonLinesFill style={{ position: 'relative', top: '-4px', left: '-1px' }} />
+                                        className='rounded-full shadow-lg shadow-gray-50 bg-[#303030] pt-3 cursor-pointer hover:scale-105 ease-in duration-300 w-10 h-10 flex items-center justify-center'
+                                    >
+                                        <BsFillPersonLinesFill style={{ color: 'white', position: 'relative', top: '-4px', left: '-1px' }} />
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div >
