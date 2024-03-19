@@ -34,7 +34,7 @@ const Projects = () => {
                                 width="100%"
                             />
 
-                            <div className="flex md:pl-5 py-4 gap-x-4 justify-start">
+                            <div className="font-face-my69 flex md:pl-5 py-4 gap-x-4 justify-start">
                                 <div className="border text-sm uppercase border-[#000] text-[#303030] py-2 px-4 rounded-full inline-block">
                                     web developing
                                 </div>
@@ -63,7 +63,7 @@ const Projects = () => {
                                 height="100%"
                                 width="100%"
                             />
-                            <div className="md:pl-5 py-4 flex gap-x-4 justify-start">
+                            <div className="font-face-my69 md:pl-5 py-4 flex gap-x-4 justify-start">
                                 <div className="border text-sm uppercase border-[#000] text-[#303030] py-2 px-4 rounded-full inline-block">
                                     Game developing
                                 </div>
@@ -91,7 +91,7 @@ const Projects = () => {
                             height="100%"
                             width="100%"
                         />
-                        <div className="md:pl-5 py-4 flex gap-x-4 justify-start">
+                        <div className="font-face-my69 md:pl-5 py-4 flex gap-x-4 justify-start">
                             <div className="border text-sm uppercase border-[#000] text-[#303030] py-2 px-4 rounded-full inline-block">
                                 <p className="md:hidden flex">
                                     AI
@@ -102,7 +102,7 @@ const Projects = () => {
                             </div>
 
                             <div className="border text-sm uppercase border-[#000] text-[#303030] py-2 px-4 rounded-full inline-block">
-                                Neural Networks
+                                ML
                             </div>
 
                             <div className="border text-sm uppercase border-[#000] text-[#303030] py-2 px-4 rounded-full inline-block">
@@ -122,7 +122,7 @@ const Projects = () => {
                             height="100%"
                             width="100%"
                         />
-                        <div className="md:pl-5 py-4 flex gap-x-4 justify-start">
+                        <div className="font-face-my69 md:pl-5 py-4 flex gap-x-4 justify-start">
                             <div className="border text-sm uppercase border-[#000] text-[#303030] py-2 px-4 rounded-full inline-block">
                                 <p className="md:hidden flex">
                                     AI
