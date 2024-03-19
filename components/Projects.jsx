@@ -28,7 +28,7 @@ const Projects = () => {
                             <ProjectItems
                                 title_1=''
                                 title_2=''
-                                backgraundImg={"/images/web_image2.png"}
+                                backgraundImg={"/images/image_web_8.png"}
                                 projectUrl='https://github.com/Pudding2159/Drone-Face-Tracking-and-Photo-Classification-with-Tello'
                                 height="100%"
                                 width="100%"
@@ -53,12 +53,12 @@ const Projects = () => {
                     </div>
 
 
-                    <div className="col-start-8 col-end-13 py-16 ">
+                    <div className="col-start-8 col-end-13 md:py-16 xs:py-10 ">
                         <div>
                             <ProjectItems
                                 title_1=''
                                 title_2=''
-                                backgraundImg={"/images/game_image.png"}
+                                backgraundImg={"/images/image_web_7.png"}
                                 projectUrl='https://github.com/Pudding2159/Unity-2D-Simple-Mobile-Game'
                                 height="100%"
                                 width="100%"
@@ -81,12 +81,12 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="col-start-1 col-end-6 py-16 ">
+                    <div className="col-start-1 col-end-6 md:py-32 xs:py-10 ">
 
                         <ProjectItems
                             title_1=''
                             title_2=''
-                            backgraundImg={"/images/image_web_5.png"}
+                            backgraundImg={"/images/image_web_9.png"}
                             projectUrl='https://github.com/Pudding2159/Bagging-Algorithm-for-Neural-Networks'
                             height="100%"
                             width="100%"
@@ -112,7 +112,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="col-start-6 col-end-13 py-16">
+                    <div className="col-start-6 col-end-13 md:py-16 xs:py-10">
 
                         <ProjectItems
                             title_1=''
