@@ -6,7 +6,7 @@ import '@styles/Gears.css'
 
 const About = () => {
     return (
-        <div>
+        <div id = "About">
             <div className="w-full md:h-full p-2 flex items-center xs:py-20 md:py-48 z-[10] md:pt-[400px]" >
                 <div className="max-w-[1240px] m-auto md:grid grid-cols-4 gap-8 z-[10]" >
 

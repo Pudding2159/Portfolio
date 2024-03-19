@@ -10,7 +10,7 @@ const Projects = () => {
     return (
 
 
-        <div className="w-full">
+        <div id = "Project" className="w-full">
             <div className="max-w-[1240px] mx-auto px-2 py-16">
                 <p className="flex justify-center pt-6 font-face-my69 xs:text-5xl md:text-7xl tracking-widest uppercase text-[#3C3935]  xs:pb-8 md:pd-0">
                     MY Project.

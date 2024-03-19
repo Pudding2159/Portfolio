@@ -42,38 +42,44 @@ const NavbarM = () => {
 
     return (
         <div className={`fixed w-full h-20 shadow-xl z-[100] ${!showNav && 'top-[-100%]'} transition-top duration-300`}>
-            <div className='fixed w-full h-20 bg-[#1e3e5ed4] shadow-xl z-[100]'>
+            <div className='fixed w-full h-20 bg-[#494a4bc7] shadow-xl z-[100]'>
                 <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
 
 
                     <div className="py-5 w-full">
                         <ul className='hidden md:flex flex-row justify-center gap-32' >
-                            <Link href='/'>
+                            <Link href='/#Home'>
                                 <h1>
                                     <span className="key-tag font-face-my69 text-xl" >
                                         Home
                                     </span>
                                 </h1>
                             </Link>
-                            <Link href='/'>
+
+                            <Link href='/#Skills'>
                                 <h1>
                                     <span className="key-tag font-face-my69 text-xl" >
                                         Skills
                                     </span>
                                 </h1>
-                            </Link><Link href='/'>
-                                <h1>
-                                    <span className="key-tag font-face-my69 text-xl" >
-                                        Contact
-                                    </span>
-                                </h1>
-                            </Link><Link href='/'>
+                            </Link>
+
+                            <Link href='/#Project'>
                                 <h1>
                                     <span className="key-tag font-face-my69 text-xl" >
                                         Project
                                     </span>
                                 </h1>
                             </Link>
+
+                            <Link href='/'>
+                                <h1>
+                                    <span className="key-tag font-face-my69 text-xl" >
+                                        Contact
+                                    </span>
+                                </h1>
+                            </Link>
+
                         </ul>
                     </div>
 
@@ -99,7 +105,7 @@ const NavbarM = () => {
                         <div>
                             <div className="flex w-full items-center justify-between">
                                 <Image
-                                    src="/icons/Home_Icon.png"
+                                    src="/icons/"
                                     width={150}
                                     height={150}
                                     alt="/"
