@@ -42,7 +42,7 @@ const NavbarM = () => {
 
     return (
         <div className={`fixed w-full h-20 shadow-xl z-[100] ${!showNav && 'top-[-100%]'} transition-top duration-300`}>
-            <div className='fixed w-full h-20 bg-[#494a4bc7] shadow-xl z-[100]'>
+            <div className='fixed w-full h-20 bg-[#1e3e5ed4] shadow-xl z-[100]'>
                 <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
 
 
@@ -99,7 +99,7 @@ const NavbarM = () => {
                         <div>
                             <div className="flex w-full items-center justify-between">
                                 <Image
-                                    src="/images/logo2.png"
+                                    src="/icons/Home_Icon.png"
                                     width={150}
                                     height={150}
                                     alt="/"

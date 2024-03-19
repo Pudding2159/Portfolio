@@ -21,9 +21,9 @@ export const ProjectItems = ({ title_1, title_2, backgraundImg, projectUrl, heig
                 <h3 className="text-2xl text-white tracking-wider text-center">{title_1}</h3>
                 <p className="px-4 pt-0 text-white text-center">{title_2}</p>
                 <a href={projectUrl} target="_blank" rel="noopener noreferrer">
-                    <div class="custom-container">
+                    <div className ="custom-container">
 
-                        <button class="custom-button">MORE INFO</button>
+                        <button className ="custom-button">MORE INFO</button>
                     </div>
                 </a>
             </div>

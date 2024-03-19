@@ -28,7 +28,7 @@ const Nav = () => {
         <nav className="flex-between w-full mb-16 pt-3">
             <Link href="/" className="flex gap-2 flex-center" >
                 <Image
-                    src="/images/logo2.png"
+                    src="/icons/Home_Icon.png"
                     alt='Logo'
                     width={150}
                     height={150}
@@ -47,7 +47,7 @@ const Nav = () => {
                     </button>
                     <Link href="/profile">
                         <Image
-                            src="/images/logo.svg"
+                            src="/icons/Home_Icon.png"
                             width={37}
                             height={37}
                             className= "rounded-full"
@@ -79,7 +79,7 @@ const Nav = () => {
             (
                 <div className= "flex">
                     <Image
-                            src="/images/logo.svg"
+                            src="/icons/Home_Icon.png"
                             width={37}
                             height={37}
                             className= "rounded-full"
