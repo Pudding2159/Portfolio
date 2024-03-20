@@ -21,8 +21,10 @@ const NavbarM = () => {
         if (typeof window !== 'undefined') {
             if (window.scrollY > lastScrollY) { // if scroll down hide the navbar
                 setShowNav(false);
+                setNav(false);
             } else { // if scroll up show the navbar
                 setShowNav(true);
+                setNav(false);
             }
 
             // remember current page location to use in the next move
@@ -106,7 +108,6 @@ const NavbarM = () => {
                         <div>
                             <div className="flex w-full items-center justify-between">
                                 <div onClick={handleNav} className="bg-[#d0d0d0] rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer" >
-
                                     <AiOutlineClose />
                                 </div>
                             </div>
