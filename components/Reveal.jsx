@@ -17,11 +17,11 @@ export const Reveal = ({ children }) => {
     }, [controls, inView]);
 
     const variants = {
-        hidden: { opacity: 0, y: -45 },
+        hidden: { opacity: 0, y: 0 },
         visible: { 
           opacity: 1, 
           y: 0, 
-          transition: { duration: 1.2, delay: 0.27 }
+          transition: { duration: 2.2, delay: 0.27 }
         }
       };
       
