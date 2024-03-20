@@ -10,7 +10,7 @@ body {
     font-family: 'LilGrotesk Regular', sans-serif;
     font-size: 20px;  /* размер шрифта для body */
 }
-
+ 
 h1, h2, h3 {
     font-family: 'LilGrotesk Bold', sans-serif;
     font-size: 40px;  /* размер шрифта для заголовков */
