@@ -9,7 +9,7 @@
   }
   
   /* Медиа-запрос, применяющий стили только если ширина экрана больше или равна 1400px */
-  @media (min-width: 1400px) {
+  @media (min-width: 1200px) {
     .glitch {
       position: relative;
       font-size: 250px;
@@ -18,7 +18,7 @@
       letter-spacing: 3px;
       z-index: 1;
     }
-  
+    
     .glitch:before,
     .glitch:after {
       display: block;

@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div id = "About">
             <div className="w-full md:h-full p-2 flex items-center xs:py-20 md:py-48 z-[10] md:pt-[400px]" >
-                <div className="max-w-[1240px] m-auto md:grid grid-cols-4 gap-8 z-[10]" >
+                <div className="max-w-[1240px] m-auto ms:grid grid-cols-4 gap-8 z-[10]" >
 
                         <div className="flex text-center col-span-2 col-start-2 xs:pb-10 md:pd-0" >
                             <p className='uppercase md:text-7xl xs:text-6xl tracking-widest text-[#7C90A1] md:whitespace-nowrap font-face-my69 '>◖ABOUT ME.◗</p>

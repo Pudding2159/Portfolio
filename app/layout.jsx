@@ -1,5 +1,4 @@
 import '@styles/globals.css';
-import Nav from 'components/Nav';
 import NavbarM from 'components/NavbarMenu'; 
 import Main from "components/Main"; 
 import About from "components/About"

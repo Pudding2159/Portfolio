@@ -42,13 +42,13 @@ const NavbarM = () => {
     }, [lastScrollY]);
 
     return (
-        <div className={`fixed w-full h-20 shadow-xl z-[100] ${!showNav && 'top-[-100%]'} transition-top duration-300`}>
-            <div className='fixed w-full h-20 bg-[#494a4bc7] shadow-xl z-[100]'>
+<div className={`fixed w-full h-20 shadow-xl z-[100] transition-all duration-[800ms] ${showNav ? 'top-0 opacity-100' : 'top-[-100%] opacity-0'}`}>
+            <div className='fixed w-full h-20 bg-[#122e49] shadow-xl z-[100]'>
                 <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
 
 
                     <div className="py-5 w-full">
-                        <ul className='hidden md:flex flex-row justify-center gap-32' >
+                        <ul className='hidden ms:flex flex-row justify-center gap-32' >
                             <Link href='/#Home'>
                                 <h1>
                                     <span className="p-4  key-tag font-face-my38 text-xl" >
@@ -73,7 +73,7 @@ const NavbarM = () => {
                                 </h1>
                             </Link>
 
-                            <Link href='/'>
+                            <Link href='/#Home'>
                                 <h1>
                                     <span className="p-4 key-tag font-face-my38 text-xl" >
                                         Contact
@@ -84,7 +84,7 @@ const NavbarM = () => {
                         </ul>
                     </div>
 
-                    <div className="flex flex-none md:px-10 xs:px-5">
+                    <div className="flex flex-none ms:px-10 xs:px-5">
                         <div onClick={handleNav}>
                             <Image
                                 src='/icons/Home_Icon.png'
@@ -99,8 +99,8 @@ const NavbarM = () => {
 
                 <div className={nav ? 'fixed left-0 top-0 w-full bg-black/70' : ''} >
                     <div className={nav
-                        ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#8695a1] p-10 ease-in duration-500'
-                        : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
+                        ? 'fixed left-0 top-0 w-[60%] sm:w-[60%] ms:w-[25%] h-screen bg-[#8695a1] p-10 ease-in duration-500'
+                        : 'fixed left-[-110%] top-0 p-10 ease-in duration-500'
                     } >
 
                         <div>
@@ -111,13 +111,13 @@ const NavbarM = () => {
                                 </div>
                             </div>
 
-                            <div className="border-b border-gray-300 my-4 md:pt-14" >
-                                <p className="w-[85%] md:w-[90%] py-4 text-[#DDC6B6] text-xl font-face-my38" >Lest  build something legendery</p>
+                            <div className="border-b border-gray-300 my-4 ms:pt-14" >
+                                <p className="w-[85%] ms:w-[90%] py-4 text-[#DDC6B6] text-xl font-face-my38" >Lest  build something legendery</p>
                             </div>
 
                         </div >
                         <div>
-                            <ul className = "md:pt-20">
+                            <ul className = "ms:pt-20">
                                 <Link href='/#Home'>
                                     <h1>
                                         <span className="p-4 key-tag font-face-my38 font-face-my38 text-xl" >
@@ -141,7 +141,7 @@ const NavbarM = () => {
                                     </h1>
                                 </Link>
 
-                                <Link href='/'>
+                                <Link href='/#Home'>
                                     <h1>
                                         <span className="p-4 key-tag font-face-my38 text-xl" >
                                             Contact
@@ -149,7 +149,7 @@ const NavbarM = () => {
                                     </h1>
                                 </Link>
                             </ul>
-                            <div className="xs:pt-10 sm:pt-28 md:pt-40" >
+                            <div className="xs:pt-10 sm:pt-28 ms:pt-40" >
 
                                 <p className="p-4 font-face-my38 uppercase tracking-widest text-[#DDC6B6]" >
                                     Let's connect
