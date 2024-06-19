@@ -186,5 +186,15 @@ html, body {
 }
 
 
+/* Скрывает скроллбары во всех браузерах */
+html {
+  scrollbar-width: none; /* Для Firefox */
+  -ms-overflow-style: none;  /* Для Internet Explorer и Edge */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Для WebKit браузеров, таких как Chrome и Safari */
+}
+
 
 
