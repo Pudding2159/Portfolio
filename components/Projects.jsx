@@ -2,6 +2,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import '@styles/Fonts.css'
+
 import ProjectItems from 'components/ProjectItems'
 import "@styles/Fonts.css"
 
@@ -22,8 +24,8 @@ const Projects = () => {
                     <div className="col-start-1 col-end-8 " >
                         <div>
                             <ProjectItems
-                                title_1=''
-                                title_2=''
+                                title_1='Drone-Face-Tracking'
+                                title_2='A project to stream Tello drone video for object recognition with a neural network'
                                 backgraundImg={"/images/image_web_8.png"}
                                 projectUrl='https://github.com/Pudding2159/Drone-Face-Tracking-and-Photo-Classification-with-Tello'
                                 height="100%"
@@ -52,8 +54,8 @@ const Projects = () => {
                     <div className="col-start-8 col-end-13 ms:py-16 xs:py-10 ">
                         <div>
                             <ProjectItems
-                                title_1=''
-                                title_2=''
+                                title_1='Unity-2D-Mobile-Game'
+                                title_2='mobile game on the Unity game engine'
                                 backgraundImg={"/images/image_web_7.png"}
                                 projectUrl='https://github.com/Pudding2159/Unity-2D-Simple-Mobile-Game'
                                 height="100%"
@@ -80,12 +82,13 @@ const Projects = () => {
                     <div className="col-start-1 col-end-6 ms:py-32 xs:py-10 ">
 
                         <ProjectItems
-                            title_1=''
-                            title_2=''
+                            title_1='Bagging-Ensemble-of-Neural-Networks'
+                            title_2='bagging algorithm for evaluating ensemble learning in neural models'
                             backgraundImg={"/images/image_web_9.png"}
                             projectUrl='https://github.com/Pudding2159/Bagging-Algorithm-for-Neural-Networks'
                             height="100%"
                             width="100%"
+                            more = "text"
                         />
                         <div className="font-face-my69 ms:pl-5 py-4 flex gap-x-4 justify-start">
                             <div className="border text-sm ms:text-xl uppercase border-[#000] text-[#303030] py-2 px-4 rounded-full inline-block">
@@ -111,8 +114,8 @@ const Projects = () => {
                     <div className="col-start-6 col-end-13 ms:py-16 xs:py-10">
 
                         <ProjectItems
-                            title_1=''
-                            title_2=''
+                            title_1='Texture-Segmentation-Algorithm'
+                            title_2='Algorithm to efficiently segment textures in images'
                             backgraundImg={"/images/web_image_4.png"}
                             projectUrl='https://github.com/Pudding2159/Bagging-Algorithm-for-Neural-Networks'
                             height="100%"

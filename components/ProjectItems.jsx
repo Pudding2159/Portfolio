@@ -5,7 +5,7 @@ import Image from 'next/image'
 import "@styles/Button.sass"
 import "@styles/Fonts.css"
 
-export const ProjectItems = ({ title_1, title_2, backgraundImg, projectUrl, height, width }) => {
+export const ProjectItems = ({ title_1, title_2, backgraundImg, projectUrl, height, width, more }) => {
     return (
         <div className="relative flex items-center justify-center h-full w-full rounded-xl overflow-hidden group">
             {/* Градиентный фон и изображение */}
@@ -18,12 +18,11 @@ export const ProjectItems = ({ title_1, title_2, backgraundImg, projectUrl, heig
             />
             {/* Текстовый блок, который становится видимым при наведении */}
             <div className="hidden group-hover:flex absolute inset-0 items-center justify-center flex-col z-20">
-                <h3 className="text-2xl text-white tracking-wider text-center">{title_1}</h3>
-                <p className="px-4 pt-0 text-white text-center">{title_2}</p>
+                <h3 className="p-4 ms:p-5 text-[#d6bfae] font-face-my38 text-2xl ms:text-4xl tracking-wider text-center">{title_1}</h3>
+                <h2 className="px-3 md:px-5 pb-10 text-[#d0d0d0] font-face-my38 text-xl ms:text-2xl text-center">{title_2}</h2>
                 <a href={projectUrl} target="_blank" rel="noopener noreferrer">
-                    <div className ="custom-container">
-
-                        <button className ="custom-button">MORE INFO</button>
+                    <div className="custom-container">
+                        <button className="custom-button">MORE INFO</button>
                     </div>
                 </a>
             </div>

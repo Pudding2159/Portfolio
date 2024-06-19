@@ -16,24 +16,23 @@ const Main = () => {
 
                 <div>
 
-                    <p className='uppercase text-ms tracking-widest text-[#ffffff] text-center p-3' >Let's build together</p>
+                    <p className='uppercase xs:text-ms ms:text-xl tracking-widest text-[#DDC6B6] text-center  font-face-my69 p-3' >Let's build together</p>
 
                     <h1 className='uppercase text-5xl text-[#7C90A1] text-center ms:hidden font-face-my69'>
-                        HI THERE, I'M <span className="text-[#7C90A1] key-tag font-face-gm">MYKYTA</span>
+                        HI THERE, I'M <span className="text-[#DDC6B6] font-face-gm">MYKYTA</span>
                     </h1>
 
                     <h1 className='uppercase py-2 text-9xl text-[#7C90A1] hidden ms:block font-face-my69'>
-                        Hi there, I'm <span className="text-[#7C90A1] key-tag  ">Mykyta Makhorin</span>
+                        Hi there, I'm <span className="text-[#DDC6B6]  ">Mykyta Makhorin</span>
                     </h1>
 
-                    <h1 className='uppercase py-2 xs:text-lg ms:text-xs ms:text-xl tracking-widest text-[#9fbfdb]'>
+                    <h1 className='uppercase py-2 xs:text-lg ms:text-xl tracking-widest text-[#9fbfdb]  font-face-my69'>
                         Student of <span className="text-[#DDC6B6] "> The Technical University of Košice </span>
                         and a <span className="text-[#DDC6B6]"> Junior</span> programmer.
                     </h1>
 
                     <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                         <div className='flex items-center justify-between my-4 w-full ms:w-[100%]'>
-
 
                             <a href="https://www.linkedin.com/in/mykyta-makhorin-3991a8204/" target="_blank" rel="noopener noreferrer">
                                 <div
